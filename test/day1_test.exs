@@ -2,27 +2,29 @@ defmodule AOC.Day1Test do
   use ExUnit.Case
 
   test "example 1" do
-    report =[
+    report = [
       1721,
       979,
       366,
       299,
       675,
-      1456,
+      1456
     ]
-    assert AOC.Day1.solve(report) == 514579
+
+    assert AOC.Day1.solve(report) == 514_579
   end
 
   test "example 2" do
-    report =[
+    report = [
       1721,
       979,
       366,
       299,
       675,
-      1456,
+      1456
     ]
-    assert AOC.Day1.solve2(report, report) == 241861950
+
+    assert AOC.Day1.solve2(report, report) == 241_861_950
   end
 
   test "solution part 1" do

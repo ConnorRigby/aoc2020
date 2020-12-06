@@ -9,6 +9,7 @@ defmodule AOC.Day1 do
         end
       end)
     end)
+
     solve2(rest, report)
   catch
     result -> result
